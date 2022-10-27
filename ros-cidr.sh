@@ -20,13 +20,16 @@ for cidr in $(cat all_cn.txt) ; do
 done
 } > ../static_router.rsc
 
+
 # static_address_list (default in chn)
+{
 echo "/ip firewall address-list remove [find comment="chn_cidr"]
 /ip firewall address-list"
 for address in $(cat static_address_list.rsc) ; do
   echo "add list=CN address=$address comment=chn_cidr"
 done
 } > ../static_address_list.rsc
+
 
 # hk_static_router
 hk_gateway="172.16.252.253"
