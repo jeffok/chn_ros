@@ -23,9 +23,9 @@ done
 
 # static_address_list (default in chn)
 {
-echo "/ip firewall address-list remove [find comment="chn_cidr"]
+echo "/ip firewall address-list remove [/ip firewall address-list find comment=chn_cidr]
 /ip firewall address-list"
-for address in $(cat static_address_list.rsc) ; do
+for address in $(cat all_cn.txt) ; do
   echo "add list=CN address=$address comment=chn_cidr"
 done
 } > ../static_address_list.rsc
@@ -46,10 +46,10 @@ done
 # dbx_static_router
 dbx_gateway="l2tp-cn"
 {
-echo "/ip route remove  [/ip route find comment=DC]
+echo "/ip route remove  [/ip route find comment=CN]
+/ip route remove  [/ip route find comment=DC]
 /ip route remove  [/ip route find comment=Whatsapp]
 /ip route remove  [/ip route find comment=Wechat]
-/ip route remove  [/ip route find comment=CN]
 /ip route
 add dst-address=66.22.212.0/22 gateway=$net_name comment=DC
 add dst-address=66.22.218.0/23 gateway=$net_name comment=DC

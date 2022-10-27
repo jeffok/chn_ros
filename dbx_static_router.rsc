@@ -1,7 +1,7 @@
+/ip route remove  [/ip route find comment=CN]
 /ip route remove  [/ip route find comment=DC]
 /ip route remove  [/ip route find comment=Whatsapp]
 /ip route remove  [/ip route find comment=Wechat]
-/ip route remove  [/ip route find comment=CN]
 /ip route
 add dst-address=66.22.212.0/22 gateway=l2tp-cn comment=DC
 add dst-address=66.22.218.0/23 gateway=l2tp-cn comment=DC
