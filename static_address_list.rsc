@@ -1,4 +1,3 @@
-/ip firewall address-list remove [/ip firewall address-list find comment=chn_cidr]
 /ip firewall address-list
 add list=CN address=1.0.1.0/24 comment=chn_cidr
 add list=CN address=1.0.2.0/23 comment=chn_cidr
