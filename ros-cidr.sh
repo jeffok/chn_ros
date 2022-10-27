@@ -14,8 +14,7 @@ ppp_name=l2tp-cn
 
 # static_router
 {
-echo "/ip route remove  [/ip route find comment=CN]
-/ip route"
+echo "/ip route"
 
 for cidr in $(cat all_cn.txt) ; do
   echo "add dst-address=$cidr gateway=$ppp_name comment=CN"

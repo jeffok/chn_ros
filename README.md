@@ -13,16 +13,20 @@ cn_route.rsc 是往ip-route 里填加路由信息，网关请自行修改（默�
 # winbox system--> script ---> add new script Update_zZroute
 
 /file remove [find name="static_router.rsc"]
-/tool fetch mode=http url="https://raw.githubusercontent.com/jeffok/chn_ros/main/static_router.rsc"\
-dst-path=static_router.rsc 
-:log info ([/file get static_router.rsc contents]) 
+/tool fetch mode=http url="https://raw.githubusercontent.com/jeffok/chn_ros/main/static_router.rsc" \
+dst-path=static_router.rsc
+:if ([:len [/file find name=static_router.rsc]] > 0) do={
+/ip route remove  [/ip route find comment=CN]
 /im file=static_router.rsc
+}
+
 ```
 
 **CN.rsc** 是往Firewall - address lists 里生ip段列表。
 ```
 /file remove [find name="cn_address-list.rsc"]
-/tool fetch url="https://raw.githubusercontent.com/jeffok/chn_ros/main/cn_address-list.rsc"
+/tool fetch url="https://raw.githubusercontent.com/jeffok/chn_ros/main/cn_address-list.rsc" \
+dst-path=cn_address-list.rsc
 :if ([:len [/file find name=cn_address-list.rsc]] > 0) do={
 /ip firewall address-list remove [find comment="chn_cidr"]
 /import cn_address-list.rsc
