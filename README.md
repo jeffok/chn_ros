@@ -4,7 +4,7 @@ ip段信息取自 [all_cn](https://ispip.clang.cn/all_cn.txt)
 
 备用 [CN_cidr](http://www.iwik.org/ipcountry/CN.cidr)
 
-由Github Action自动构建于此。
+由Github Action自动构建于此，GMT+8 每天4点自动更新
 
 明细路由和策略路由在ros中实现方法：
 
