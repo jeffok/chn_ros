@@ -13,8 +13,7 @@ wget --no-check-certificate -c -O all_cn.txt https://ispip.clang.cn/all_cn.txt
 net_name="l2tp-cn"
 # static_router (default in chn)
 {
-echo "/ip route remove  [/ip route find comment=CN]
-/ip route"
+echo "/ip route"
 for cidr in $(cat all_cn.txt) ; do
   echo "add dst-address=$cidr gateway=$net_name comment=CN"
 done
@@ -23,8 +22,7 @@ done
 
 # static_address_list (default in chn)
 {
-echo "/ip firewall address-list remove [/ip firewall address-list find comment=chn_cidr]
-/ip firewall address-list"
+echo "/ip firewall address-list"
 for address in $(cat all_cn.txt) ; do
   echo "add list=CN address=$address comment=chn_cidr"
 done
@@ -34,9 +32,7 @@ done
 # hk_static_router
 hk_gateway="172.16.252.253"
 {
-echo "/ip route remove  [/ip route find comment=CN]
-/ip route"
-
+echo "/ip route"
 for cidr in $(cat all_cn.txt) ; do
   echo "add dst-address=$cidr gateway=$hk_gateway comment=CN"
 done
@@ -46,11 +42,7 @@ done
 # dbx_static_router
 dbx_gateway="l2tp-cn"
 {
-echo "/ip route remove  [/ip route find comment=CN]
-/ip route remove  [/ip route find comment=DC]
-/ip route remove  [/ip route find comment=Whatsapp]
-/ip route remove  [/ip route find comment=Wechat]
-/ip route
+echo "/ip route
 add dst-address=66.22.212.0/22 gateway=$net_name comment=DC
 add dst-address=66.22.218.0/23 gateway=$net_name comment=DC
 add dst-address=185.151.204.0/24 gateway=$net_name comment=DC

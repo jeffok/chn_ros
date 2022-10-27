@@ -14,7 +14,8 @@ ip段信息取自 [all_cn](https://ispip.clang.cn/all_cn.txt)
 /file remove [find name="static_router.rsc"]
 /tool fetch mode=http url="https://raw.githubusercontent.com/jeffok/chn_ros/main/static_router.rsc"\
 dst-path=static_router.rsc 
-:log info ([/file get static_router.rsc contents]) 
+:log info ([/file get static_router.rsc contents])
+/ip route remove  [/ip route find comment=CN]
 /im file=static_router.rsc
 
 ```
@@ -24,7 +25,8 @@ dst-path=static_router.rsc
 /file remove [find name="static_address_list.rsc"]
 /tool fetch mode=http url="https://raw.githubusercontent.com/jeffok/chn_ros/main/static_address_list.rsc"\
 dst-path=static_address_list.rsc 
-:log info ([/file get static_address_list contents]) 
+:log info ([/file get static_address_list contents])
+/ip firewall address-list remove [/ip firewall address-list find comment=chn_cidr]
 /im file=static_address_list.rsc
 ```
 
