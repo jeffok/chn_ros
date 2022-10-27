@@ -8,10 +8,9 @@ ip段信息取自 [all_cn](https://ispip.clang.cn/all_cn.txt)
 
 明细路由和策略路由在ros中实现方法：
 
-cn_route.rsc 是往ip-route 里填加路由信息，网关请自行修改（默认为l2tp-cn)
-```
-# winbox system--> script ---> add new script Update_zZroute
+**cn_route.rsc** 是往ip-route 里填加路由信息，网关请自行修改（默认为l2tp-cn)
 
+```
 /file remove [find name="static_router.rsc"]
 /tool fetch mode=http url="https://raw.githubusercontent.com/jeffok/chn_ros/main/static_router.rsc" \
 dst-path=static_router.rsc
@@ -22,7 +21,7 @@ dst-path=static_router.rsc
 
 ```
 
-**CN.rsc** 是往Firewall - address lists 里生ip段列表。
+**cn_address-list.rsc** 是往Firewall - address lists 里生ip段列表。
 ```
 /file remove [find name="cn_address-list.rsc"]
 /tool fetch url="https://raw.githubusercontent.com/jeffok/chn_ros/main/cn_address-list.rsc" \
