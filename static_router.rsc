@@ -1,3 +1,4 @@
+/ip route remove  [/ip route find comment=CN]
 /ip route
 add dst-address=1.0.1.0/24 gateway=l2tp-cn comment=CN
 add dst-address=1.0.2.0/23 gateway=l2tp-cn comment=CN

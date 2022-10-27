@@ -1,3 +1,4 @@
+/ip route remove  [/ip route find comment=CN]
 /ip route
 add dst-address=1.0.1.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=1.0.2.0/23 gateway=172.16.252.253 comment=CN
