@@ -1,0 +1,23 @@
+name: Build CIDR
+
+on:
+  schedule:
+    - cron: "2 0/1 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: download cidr
+      run: |
+        chmod +x ros-cidr.sh
+        ./ros-cidr.sh
+        
+    - name: Commit & Push changes
+      uses: actions-js/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
