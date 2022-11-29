@@ -5600,7 +5600,6 @@ add dst-address=118.103.164.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=118.103.168.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=118.103.172.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=118.103.176.0/22 gateway=172.16.252.253 comment=CN
-add dst-address=118.107.180.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=118.112.0.0/13 gateway=172.16.252.253 comment=CN
 add dst-address=118.120.0.0/14 gateway=172.16.252.253 comment=CN
 add dst-address=118.124.0.0/15 gateway=172.16.252.253 comment=CN
