@@ -3242,6 +3242,7 @@ add list=CN address=103.85.164.0/22 comment=chn_cidr
 add list=CN address=103.85.168.0/22 comment=chn_cidr
 add list=CN address=103.85.172.0/22 comment=chn_cidr
 add list=CN address=103.85.176.0/22 comment=chn_cidr
+add list=CN address=103.85.186.0/23 comment=chn_cidr
 add list=CN address=103.85.224.0/22 comment=chn_cidr
 add list=CN address=103.86.28.0/22 comment=chn_cidr
 add list=CN address=103.86.32.0/22 comment=chn_cidr
