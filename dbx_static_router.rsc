@@ -4908,6 +4908,7 @@ add dst-address=103.230.0.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.230.28.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.230.44.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.230.96.0/22 gateway=l2tp-cn comment=CN
+add dst-address=103.230.110.0/23 gateway=l2tp-cn comment=CN
 add dst-address=103.230.196.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.230.200.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.230.204.0/22 gateway=l2tp-cn comment=CN
