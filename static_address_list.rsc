@@ -6212,6 +6212,8 @@ add list=CN address=153.101.0.0/16 comment=chn_cidr
 add list=CN address=153.118.0.0/15 comment=chn_cidr
 add list=CN address=154.8.128.0/17 comment=chn_cidr
 add list=CN address=157.0.0.0/16 comment=chn_cidr
+add list=CN address=157.10.34.0/23 comment=chn_cidr
+add list=CN address=157.10.36.0/23 comment=chn_cidr
 add list=CN address=157.18.0.0/16 comment=chn_cidr
 add list=CN address=157.61.0.0/16 comment=chn_cidr
 add list=CN address=157.119.8.0/22 comment=chn_cidr
