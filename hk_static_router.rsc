@@ -6214,6 +6214,9 @@ add dst-address=154.8.128.0/17 gateway=172.16.252.253 comment=CN
 add dst-address=157.0.0.0/16 gateway=172.16.252.253 comment=CN
 add dst-address=157.10.34.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=157.10.36.0/23 gateway=172.16.252.253 comment=CN
+add dst-address=157.10.112.0/23 gateway=172.16.252.253 comment=CN
+add dst-address=157.10.118.0/23 gateway=172.16.252.253 comment=CN
+add dst-address=157.10.130.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=157.18.0.0/16 gateway=172.16.252.253 comment=CN
 add dst-address=157.61.0.0/16 gateway=172.16.252.253 comment=CN
 add dst-address=157.119.8.0/22 gateway=172.16.252.253 comment=CN
