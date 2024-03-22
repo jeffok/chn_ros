@@ -176,6 +176,7 @@ add dst-address=39.128.0.0/10 gateway=172.16.252.253 comment=CN
 add dst-address=40.72.0.0/15 gateway=172.16.252.253 comment=CN
 add dst-address=40.125.128.0/17 gateway=172.16.252.253 comment=CN
 add dst-address=40.126.64.0/18 gateway=172.16.252.253 comment=CN
+add dst-address=40.162.0.0/16 gateway=172.16.252.253 comment=CN
 add dst-address=42.0.0.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=42.0.8.0/21 gateway=172.16.252.253 comment=CN
 add dst-address=42.0.16.0/21 gateway=172.16.252.253 comment=CN
