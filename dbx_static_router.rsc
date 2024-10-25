@@ -6279,6 +6279,7 @@ add dst-address=160.187.223.0/24 gateway=l2tp-cn comment=CN
 add dst-address=160.187.252.0/23 gateway=l2tp-cn comment=CN
 add dst-address=160.187.254.0/23 gateway=l2tp-cn comment=CN
 add dst-address=160.191.0.0/23 gateway=l2tp-cn comment=CN
+add dst-address=160.191.104.0/23 gateway=l2tp-cn comment=CN
 add dst-address=160.202.60.0/22 gateway=l2tp-cn comment=CN
 add dst-address=160.202.148.0/22 gateway=l2tp-cn comment=CN
 add dst-address=160.202.152.0/22 gateway=l2tp-cn comment=CN
