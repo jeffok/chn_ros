@@ -7058,6 +7058,7 @@ add dst-address=202.127.5.0/24 gateway=l2tp-cn comment=CN
 add dst-address=202.127.6.0/23 gateway=l2tp-cn comment=CN
 add dst-address=202.127.12.0/22 gateway=l2tp-cn comment=CN
 add dst-address=202.127.16.0/20 gateway=l2tp-cn comment=CN
+add dst-address=202.127.40.0/21 gateway=l2tp-cn comment=CN
 add dst-address=202.127.48.0/20 gateway=l2tp-cn comment=CN
 add dst-address=202.127.112.0/20 gateway=l2tp-cn comment=CN
 add dst-address=202.127.128.0/20 gateway=l2tp-cn comment=CN
