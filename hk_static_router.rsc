@@ -8670,7 +8670,8 @@ add dst-address=223.112.0.0/14 gateway=172.16.252.253 comment=CN
 add dst-address=223.116.0.0/15 gateway=172.16.252.253 comment=CN
 add dst-address=223.120.128.0/17 gateway=172.16.252.253 comment=CN
 add dst-address=223.121.128.0/17 gateway=172.16.252.253 comment=CN
-add dst-address=223.123.128.0/17 gateway=172.16.252.253 comment=CN
+add dst-address=223.123.208.0/20 gateway=172.16.252.253 comment=CN
+add dst-address=223.123.224.0/19 gateway=172.16.252.253 comment=CN
 add dst-address=223.124.0.0/14 gateway=172.16.252.253 comment=CN
 add dst-address=223.128.0.0/15 gateway=172.16.252.253 comment=CN
 add dst-address=223.144.0.0/12 gateway=172.16.252.253 comment=CN
