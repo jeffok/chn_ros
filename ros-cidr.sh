@@ -4,7 +4,7 @@ mkdir -p ./pbr
 cd ./pbr
 
 # CN IP Address
-wget --no-check-certificate -c -O all_cn.txt https://ispip.clang.cn/all_cn.txt
+wget --no-check-certificate -c -O all_cn.txt https://ispip.clang.cn/all_cn_geolite2.txt
 # wget --no-check-certificate -c -O all_cn.txt http://www.iwik.org/ipcountry/CN.cidr
 
 # /ip route add dst-address=223.29.252.0/22 gateway=121.14.41.209 comment=CN
