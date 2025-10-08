@@ -1811,6 +1811,7 @@ add list=CN address=113.200.0.0/15 comment=chn_cidr
 add list=CN address=113.204.0.0/14 comment=chn_cidr
 add list=CN address=113.208.112.0/21 comment=chn_cidr
 add list=CN address=113.209.128.0/17 comment=chn_cidr
+add list=CN address=113.213.0.0/18 comment=chn_cidr
 add list=CN address=113.213.64.0/19 comment=chn_cidr
 add list=CN address=113.213.96.0/20 comment=chn_cidr
 add list=CN address=113.214.0.0/15 comment=chn_cidr
