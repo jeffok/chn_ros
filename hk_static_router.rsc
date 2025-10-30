@@ -2607,9 +2607,7 @@ add dst-address=123.49.194.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=123.49.224.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=123.49.229.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=123.49.232.0/24 gateway=172.16.252.253 comment=CN
-add dst-address=123.49.240.0/22 gateway=172.16.252.253 comment=CN
-add dst-address=123.49.244.0/24 gateway=172.16.252.253 comment=CN
-add dst-address=123.49.246.0/23 gateway=172.16.252.253 comment=CN
+add dst-address=123.49.240.0/21 gateway=172.16.252.253 comment=CN
 add dst-address=123.52.0.0/14 gateway=172.16.252.253 comment=CN
 add dst-address=123.56.0.0/15 gateway=172.16.252.253 comment=CN
 add dst-address=123.58.0.0/19 gateway=172.16.252.253 comment=CN
