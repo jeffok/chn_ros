@@ -1017,7 +1017,8 @@ add dst-address=103.56.104.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=103.56.152.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=103.56.184.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=103.57.12.0/22 gateway=172.16.252.253 comment=CN
-add dst-address=103.57.136.0/22 gateway=172.16.252.253 comment=CN
+add dst-address=103.57.136.0/23 gateway=172.16.252.253 comment=CN
+add dst-address=103.57.139.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=103.59.112.0/21 gateway=172.16.252.253 comment=CN
 add dst-address=103.59.124.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=103.59.148.0/22 gateway=172.16.252.253 comment=CN
