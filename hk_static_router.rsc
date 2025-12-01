@@ -3853,8 +3853,9 @@ add dst-address=211.160.46.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=211.160.62.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=211.160.72.0/21 gateway=172.16.252.253 comment=CN
 add dst-address=211.160.80.0/20 gateway=172.16.252.253 comment=CN
-add dst-address=211.160.112.0/22 gateway=172.16.252.253 comment=CN
-add dst-address=211.160.120.0/23 gateway=172.16.252.253 comment=CN
+add dst-address=211.160.112.0/23 gateway=172.16.252.253 comment=CN
+add dst-address=211.160.115.0/24 gateway=172.16.252.253 comment=CN
+add dst-address=211.160.120.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=211.160.160.0/19 gateway=172.16.252.253 comment=CN
 add dst-address=211.160.194.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=211.160.196.0/24 gateway=172.16.252.253 comment=CN
