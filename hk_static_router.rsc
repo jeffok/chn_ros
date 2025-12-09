@@ -2166,8 +2166,6 @@ add dst-address=118.145.176.0/20 gateway=172.16.252.253 comment=CN
 add dst-address=118.145.192.0/18 gateway=172.16.252.253 comment=CN
 add dst-address=118.178.0.0/16 gateway=172.16.252.253 comment=CN
 add dst-address=118.180.0.0/14 gateway=172.16.252.253 comment=CN
-add dst-address=118.184.105.0/24 gateway=172.16.252.253 comment=CN
-add dst-address=118.184.106.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=118.184.128.0/17 gateway=172.16.252.253 comment=CN
 add dst-address=118.186.0.0/19 gateway=172.16.252.253 comment=CN
 add dst-address=118.186.32.0/24 gateway=172.16.252.253 comment=CN
@@ -2209,8 +2207,6 @@ add dst-address=118.192.68.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=118.192.70.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=118.192.96.0/19 gateway=172.16.252.253 comment=CN
 add dst-address=118.193.96.0/19 gateway=172.16.252.253 comment=CN
-add dst-address=118.193.144.0/24 gateway=172.16.252.253 comment=CN
-add dst-address=118.193.176.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=118.194.32.0/19 gateway=172.16.252.253 comment=CN
 add dst-address=118.194.128.0/21 gateway=172.16.252.253 comment=CN
 add dst-address=118.194.164.0/22 gateway=172.16.252.253 comment=CN
