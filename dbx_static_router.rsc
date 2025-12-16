@@ -472,7 +472,6 @@ add dst-address=45.202.212.0/24 gateway=l2tp-cn comment=CN
 add dst-address=45.248.8.0/22 gateway=l2tp-cn comment=CN
 add dst-address=45.248.108.0/24 gateway=l2tp-cn comment=CN
 add dst-address=45.248.204.0/22 gateway=l2tp-cn comment=CN
-add dst-address=45.249.188.0/24 gateway=l2tp-cn comment=CN
 add dst-address=45.249.208.0/23 gateway=l2tp-cn comment=CN
 add dst-address=45.249.212.0/22 gateway=l2tp-cn comment=CN
 add dst-address=45.250.28.0/22 gateway=l2tp-cn comment=CN
@@ -1404,6 +1403,7 @@ add dst-address=103.216.4.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.216.136.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.216.152.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.216.252.0/22 gateway=l2tp-cn comment=CN
+add dst-address=103.217.180.0/24 gateway=l2tp-cn comment=CN
 add dst-address=103.217.184.0/21 gateway=l2tp-cn comment=CN
 add dst-address=103.217.192.0/20 gateway=l2tp-cn comment=CN
 add dst-address=103.218.216.0/22 gateway=l2tp-cn comment=CN
@@ -2853,6 +2853,9 @@ add dst-address=144.7.0.0/17 gateway=l2tp-cn comment=CN
 add dst-address=144.12.0.0/16 gateway=l2tp-cn comment=CN
 add dst-address=144.36.146.0/23 gateway=l2tp-cn comment=CN
 add dst-address=144.48.64.0/22 gateway=l2tp-cn comment=CN
+add dst-address=144.48.180.0/23 gateway=l2tp-cn comment=CN
+add dst-address=144.48.182.0/24 gateway=l2tp-cn comment=CN
+add dst-address=144.48.184.0/22 gateway=l2tp-cn comment=CN
 add dst-address=144.48.212.0/22 gateway=l2tp-cn comment=CN
 add dst-address=144.48.252.0/22 gateway=l2tp-cn comment=CN
 add dst-address=144.52.0.0/16 gateway=l2tp-cn comment=CN
@@ -3294,6 +3297,7 @@ add dst-address=202.130.0.0/19 gateway=l2tp-cn comment=CN
 add dst-address=202.130.224.0/20 gateway=l2tp-cn comment=CN
 add dst-address=202.130.240.0/21 gateway=l2tp-cn comment=CN
 add dst-address=202.136.48.0/20 gateway=l2tp-cn comment=CN
+add dst-address=202.136.72.0/23 gateway=l2tp-cn comment=CN
 add dst-address=202.136.208.0/21 gateway=l2tp-cn comment=CN
 add dst-address=202.136.216.0/23 gateway=l2tp-cn comment=CN
 add dst-address=202.136.218.0/24 gateway=l2tp-cn comment=CN
