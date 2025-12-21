@@ -2829,6 +2829,7 @@ add list=CN address=144.48.184.0/22 comment=chn_cidr
 add list=CN address=144.48.212.0/22 comment=chn_cidr
 add list=CN address=144.48.252.0/22 comment=chn_cidr
 add list=CN address=144.52.0.0/16 comment=chn_cidr
+add list=CN address=144.79.70.0/23 comment=chn_cidr
 add list=CN address=144.123.0.0/16 comment=chn_cidr
 add list=CN address=144.255.0.0/16 comment=chn_cidr
 add list=CN address=145.14.71.0/24 comment=chn_cidr
