@@ -594,7 +594,6 @@ add dst-address=59.111.160.0/21 gateway=172.16.252.253 comment=CN
 add dst-address=59.111.168.0/22 gateway=172.16.252.253 comment=CN
 add dst-address=59.111.173.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=59.111.175.0/24 gateway=172.16.252.253 comment=CN
-add dst-address=59.111.176.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=59.111.178.0/23 gateway=172.16.252.253 comment=CN
 add dst-address=59.111.181.0/24 gateway=172.16.252.253 comment=CN
 add dst-address=59.111.182.0/23 gateway=172.16.252.253 comment=CN
