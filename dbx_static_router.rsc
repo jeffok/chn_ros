@@ -2363,9 +2363,7 @@ add dst-address=120.132.120.0/21 gateway=l2tp-cn comment=CN
 add dst-address=120.132.128.0/17 gateway=l2tp-cn comment=CN
 add dst-address=120.133.0.0/16 gateway=l2tp-cn comment=CN
 add dst-address=120.134.0.0/15 gateway=l2tp-cn comment=CN
-add dst-address=120.136.16.0/23 gateway=l2tp-cn comment=CN
-add dst-address=120.136.18.0/24 gateway=l2tp-cn comment=CN
-add dst-address=120.136.20.0/22 gateway=l2tp-cn comment=CN
+add dst-address=120.136.16.0/21 gateway=l2tp-cn comment=CN
 add dst-address=120.136.128.0/21 gateway=l2tp-cn comment=CN
 add dst-address=120.136.140.0/22 gateway=l2tp-cn comment=CN
 add dst-address=120.136.144.0/20 gateway=l2tp-cn comment=CN
