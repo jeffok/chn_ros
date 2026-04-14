@@ -249,7 +249,7 @@ add list=CN address=43.176.0.0/14 comment=chn_cidr
 add list=CN address=43.180.0.0/16 comment=chn_cidr
 add list=CN address=43.192.0.0/16 comment=chn_cidr
 add list=CN address=43.193.0.0/18 comment=chn_cidr
-add list=CN address=43.193.64.0/24 comment=chn_cidr
+add list=CN address=43.193.64.0/23 comment=chn_cidr
 add list=CN address=43.194.0.0/20 comment=chn_cidr
 add list=CN address=43.194.16.0/24 comment=chn_cidr
 add list=CN address=43.195.0.0/20 comment=chn_cidr
