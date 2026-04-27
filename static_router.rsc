@@ -1509,6 +1509,7 @@ add dst-address=103.251.96.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.251.124.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.251.160.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.251.204.0/23 gateway=l2tp-cn comment=CN
+add dst-address=103.251.207.0/24 gateway=l2tp-cn comment=CN
 add dst-address=103.251.240.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.252.36.0/22 gateway=l2tp-cn comment=CN
 add dst-address=103.252.172.0/22 gateway=l2tp-cn comment=CN
@@ -3031,6 +3032,7 @@ add dst-address=171.104.0.0/13 gateway=l2tp-cn comment=CN
 add dst-address=171.112.0.0/12 gateway=l2tp-cn comment=CN
 add dst-address=171.208.0.0/12 gateway=l2tp-cn comment=CN
 add dst-address=172.81.192.0/18 gateway=l2tp-cn comment=CN
+add dst-address=174.136.239.0/24 gateway=l2tp-cn comment=CN
 add dst-address=175.0.0.0/12 gateway=l2tp-cn comment=CN
 add dst-address=175.16.0.0/13 gateway=l2tp-cn comment=CN
 add dst-address=175.24.0.0/15 gateway=l2tp-cn comment=CN
