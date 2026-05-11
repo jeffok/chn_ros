@@ -132,6 +132,7 @@ add list=CN address=38.134.56.0/24 comment=chn_cidr
 add list=CN address=38.134.58.0/23 comment=chn_cidr
 add list=CN address=38.247.24.0/22 comment=chn_cidr
 add list=CN address=38.247.32.0/23 comment=chn_cidr
+add list=CN address=38.247.35.0/24 comment=chn_cidr
 add list=CN address=38.247.36.0/22 comment=chn_cidr
 add list=CN address=39.64.0.0/11 comment=chn_cidr
 add list=CN address=39.96.0.0/13 comment=chn_cidr
@@ -1980,6 +1981,10 @@ add list=CN address=116.214.32.0/19 comment=chn_cidr
 add list=CN address=116.214.128.0/22 comment=chn_cidr
 add list=CN address=116.214.132.0/23 comment=chn_cidr
 add list=CN address=116.214.134.0/24 comment=chn_cidr
+add list=CN address=116.218.0.0/18 comment=chn_cidr
+add list=CN address=116.218.64.0/19 comment=chn_cidr
+add list=CN address=116.218.128.0/20 comment=chn_cidr
+add list=CN address=116.218.144.0/21 comment=chn_cidr
 add list=CN address=116.224.0.0/12 comment=chn_cidr
 add list=CN address=116.242.0.0/16 comment=chn_cidr
 add list=CN address=116.246.0.0/15 comment=chn_cidr
