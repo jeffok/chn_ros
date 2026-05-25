@@ -755,7 +755,6 @@ add dst-address=71.131.192.0/18 gateway=l2tp-cn comment=CN
 add dst-address=71.132.0.0/18 gateway=l2tp-cn comment=CN
 add dst-address=71.136.64.0/18 gateway=l2tp-cn comment=CN
 add dst-address=71.137.0.0/18 gateway=l2tp-cn comment=CN
-add dst-address=74.122.24.0/24 gateway=l2tp-cn comment=CN
 add dst-address=78.105.182.0/23 gateway=l2tp-cn comment=CN
 add dst-address=79.133.176.0/24 gateway=l2tp-cn comment=CN
 add dst-address=81.68.0.0/14 gateway=l2tp-cn comment=CN
