@@ -755,6 +755,7 @@ add list=CN address=71.131.192.0/18 comment=chn_cidr
 add list=CN address=71.132.0.0/18 comment=chn_cidr
 add list=CN address=71.136.64.0/18 comment=chn_cidr
 add list=CN address=71.137.0.0/18 comment=chn_cidr
+add list=CN address=74.122.24.0/24 comment=chn_cidr
 add list=CN address=78.105.182.0/23 comment=chn_cidr
 add list=CN address=79.133.176.0/24 comment=chn_cidr
 add list=CN address=81.68.0.0/14 comment=chn_cidr
